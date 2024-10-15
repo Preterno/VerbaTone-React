@@ -1,0 +1,35 @@
+/* custom-toast.css */
+.Toastify__toast {
+    top: 0.5rem;
+    background-color: #345B63 !important;
+    color: #F0F3F4 !important;
+    border-left: 4px solid #008c94 !important;
+    padding-right: 30px !important; 
+  }
+  
+  .Toastify__close-button {
+    color: #00ADB5 !important;
+    opacity: 1 !important; 
+    font-size: 24px !important; 
+    font-weight: bold !important;
+    position: absolute !important;
+    top: 50% !important;
+    right: 10px !important;
+    transform: translateY(-50%) !important;
+  }
+  
+  .Toastify__close-button:hover {
+    color: #008c94 !important; 
+  }
+  
+  .Toastify__close-button > svg {
+    width: 24px !important; 
+    height: 24px !important;
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .Toastify__toast-container {
+      width: 75vw;
+      left: 12.5%;
+    }
+  }
