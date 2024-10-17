@@ -72,17 +72,14 @@ function Generate({ inputMethod, inputText, uploadedFile }) {
       throw new Error("No text provided for synthesis");
     }
 
-    const formData = new FormData();
-    formData.append("text", textForSynthesis);
-
     const response = await fetch(`${apiUrl}/synthesize`, {
       method: "POST",
       mode: "cors",
       headers: {
-        Accept: "application/json",
+        'Content-Type': 'application/json',
         "X-API-KEY": apiKey,
       },
-      body: formData,
+      body: JSON.stringify({ text: textForSynthesis }),
     });
 
     if (!response.ok) {
