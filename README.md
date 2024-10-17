@@ -69,4 +69,4 @@ VerbaTone is an evolution of a previous project that used HTML, CSS, JavaScript,
 
 ## Connect with Me
 
-Feel free to connect with me on [LinkedIn](https://www.linkedin.com/).
+Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/aslam8483).
